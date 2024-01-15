@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.taskbar-emmet {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 962px;
+    height: 36px;
+    line-height: 35px;
+    background: url(/static/theme/taskbar-black.png);
+    border-top: 1px solid #000;
+    box-shadow: #000 0px 0px 5px;
+}
+
+.setting-emmet {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 100%;
+    overflow: hidden;
+    text-shadow: none;
+    background: transparent;
+    cursor: default;
+}
+
+.setting-emmet:hover {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 100%;
+    overflow: hidden;
+    text-shadow: none;
+    background: #76767675;
+    cursor: pointer;
+}
+
+.emmet-001 img {
+    display: block;
+}
