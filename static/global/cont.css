@@ -1,48 +1,21 @@
-body {
-    margin: 0;
-    overflow: hidden;
-}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yatra+One&family=Ysabeau+SC:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yatra+One&family=Ysabeau+SC:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap');
 
-.taskbar-emmet {
-    display: flex;
-    align-items: center;
+body { background: #000; margin: 0; overflow: hidden; user-select: none; }
+  #sr-logo {
     position: absolute;
-    left: 0px;
-    bottom: 0px;
-    width: 962px;
-    height: 36px;
-    line-height: 35px;
-    background: url(/static/theme/taskbar-black.png);
-    border-top: 1px solid #000;
-    box-shadow: #000 0px 0px 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
 }
 
-.setting-emmet {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 42px;
-    height: 100%;
-    overflow: hidden;
-    text-shadow: none;
-    background: transparent;
-    cursor: default;
-}
-
-.setting-emmet:hover {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 42px;
-    height: 100%;
-    overflow: hidden;
-    text-shadow: none;
-    background: #76767675;
-    cursor: pointer;
-}
-
-.emmet-001 img {
-    display: block;
+#status {
+    position: absolute;
+    font-family: 'Ysabeau SC', sans-serif;
+    bottom: 10px;
+    left: 10px;
+    font-size: 18px;
+    color: #fff;
 }

@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='global/cont.css') }}">
     <script src="{{ url_for('static', filename='script/play.js') }}" defer></script>
+    <script src="{{ url_for('static', filename='script/disable.js') }}" defer></script>
+    <script src="{{ url_for('static', filename='script/load.js') }}" defer></script>
 </head>
-<body style="background: #000;">
-    <h1 style="color: aliceblue;">Hello World!</h1>
+<body>
+    <img id="sr-logo" src="{{ url_for('static', filename='image/intro.png') }}" alt="RQ Studio Logo">
 </body>
 </html>
