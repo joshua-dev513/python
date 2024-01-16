@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="{{ url_for('static', filename='image/favicon.ico') }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ url_for('static', filename='global/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='font/fonts.css') }}">
     <script src="{{ url_for('static', filename='script/main.js') }}" defer></script>
     <script src="{{ url_for('static', filename='script/play.js') }}" defer></script>
 </head>
@@ -15,6 +16,9 @@
             <div id="game-aspect">
                 <iframe src="{{ url_for('play') }}" allowfullscreen=""></iframe>
             </div>
+        </div>
+        <div id="manage-access">
+            <p><span style="font-family: Arial, Helvetica, sans-serif;">©</span> RQ ²⁰²⁴</p>
         </div>
     </center>
 </body>

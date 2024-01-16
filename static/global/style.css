@@ -1,3 +1,5 @@
+
+
 body {
     background: #111;
     user-select: none;
@@ -27,4 +29,12 @@ body {
     top: 0;
     display: block;
     border: none;
+}
+
+#manage-access p {
+    color: #b4b4b4;
+    margin-top: 20px;
+    text-shadow: 0 0 4px #000;
+    font-family: 'Ysabeau SC', sans-serif;
+    text-transform: uppercase;
 }
